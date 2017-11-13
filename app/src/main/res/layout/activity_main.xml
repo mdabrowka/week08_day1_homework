@@ -22,7 +22,7 @@
         app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.354" />
+        app:layout_constraintVertical_bias="0.474" />
 
     <TextView
         android:id="@+id/counter"
@@ -38,5 +38,14 @@
         app:layout_constraintTop_toBottomOf="@+id/inputText"
         app:layout_constraintVertical_bias="0.258"
         tools:text="0" />
+
+    <Button
+        android:id="@+id/wordCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="383dp"
+        tools:text="Count words!" />
 
 </android.support.constraint.ConstraintLayout>
