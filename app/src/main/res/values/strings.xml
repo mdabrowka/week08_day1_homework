@@ -1,9 +1,6 @@
 <resources>
     <string name="app_name">WordCounter</string>
     <string name="input_text">text</string>
-    <string name="input_text">text</string>
-    <string name="counter">0</string>
-    <string name="counter">0</string>
     <string name="counter">0</string>
     <string name="word_count">Count words!</string>
 </resources>
