@@ -31,7 +31,8 @@ public class MainActivity extends AppCompatActivity {
         Log.d(getClass().toString(), text);
         WordCounter calculator = new WordCounter();
         int answer = calculator.countWords(text);
-        this.counter.setText(answer);
+        this.counter.setText(Integer.toString(answer));
+
 
     }
 
